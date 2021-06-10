@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    background-color: lightcoral
+}
+.main h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+.main .input{
+    position: relative;
+    top: auto;
+    left: 43%;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+.operation{
+    position: relative;
+    top: auto;
+    left: 45%;
+    margin: 20px;
+}
+.funksionet{
+    display: flex;
+    flex-direction: row;
+}
+.operation  .funksionet .plus{
+    border: 1px solid red ;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;  
+}
+.operation .funksionet .zbritja{
+    border: 1px solid red ;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.operation .funksionet .shumezimi{
+    border: 1px solid red ;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    position:absolute;
+    top: 80px;
+    border-radius: 10px;
+    
+}
+.operation .funksionet .pjestimi{
+    border: 1px solid red ;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    position:absolute;
+    top: 80px;
+    left: 60px;
+    border-radius: 10px;
+}
